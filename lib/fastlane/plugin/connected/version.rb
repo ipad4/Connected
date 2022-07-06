@@ -1,5 +1,5 @@
 module Fastlane
   module Connected
-    VERSION = ENV['VERSION']
+    VERSION = "0.1.3.1"
   end
 end
