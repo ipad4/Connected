@@ -5,13 +5,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 #require 'fastlane/plugin/connected/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'custom-fastlane-plugin-connected'
+  spec.name          = 'fastlane-plugin-connected'
   spec.version       = '0.1.3.1'
-  spec.author        = 'Abgier Avraha'
-  spec.email         = 'abgier@blitzm.com'
+  spec.author        = 'ipad4'
+  spec.email         = 'xx@xx.com'
 
   spec.summary       = 'Fastlane plugin that allows you to use your App Store Connect API key to download certificates and upload apps to TestFlight'
-  spec.homepage      = "https://github.com/blitzm-systems/Connected"
+  spec.homepage      = "https://github.com/ipad4/Connected"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)
