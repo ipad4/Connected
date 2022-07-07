@@ -6,7 +6,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = 'fastlane-plugin-connected'
-  spec.version       = '0.1.3.1'
+  spec.version       = '0.1.3.2'
   spec.author        = 'ipad4'
   spec.email         = 'xx@xx.com'
 
