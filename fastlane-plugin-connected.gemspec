@@ -2,11 +2,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-#require 'fastlane/plugin/connected/version'
+require 'fastlane/plugin/connected/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'fastlane-plugin-connected'
-  spec.version       = '0.1.3.2'
+  spec.version       = Fastlane::Connected::VERSION
   spec.author        = 'ipad4'
   spec.email         = 'xx@xx.com'
 
