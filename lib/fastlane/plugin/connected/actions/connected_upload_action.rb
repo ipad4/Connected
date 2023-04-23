@@ -70,7 +70,7 @@ module Fastlane
           FastlaneCore::ConfigItem.new(key: :xcode_dir,
                                   env_name: "DEVELOPER_DIR",
                                description: "The path to your xcode directory",
-                             default_value: "/Applications/Xcode.app",
+                             default_value: "/Applications/Xcode-14.2.0.app/Contents/Developer",
                                   optional: true,
                                       type: String),
           FastlaneCore::ConfigItem.new(key: :api_key,

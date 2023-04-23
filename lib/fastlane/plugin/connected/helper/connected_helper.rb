@@ -122,7 +122,7 @@ module Fastlane
         out_file.close
 
         # Start upload
-        altool_path = "#{xcode_path}/Contents/Developer/usr/bin/altool"
+        altool_path = "#{xcode_path}/usr/bin/altool"
         Fastlane::Actions.sh(altool_path, "--upload-app", "--type", "ios", "--file", ipa_file, "--apiKey", key_id, "--apiIssuer", issuer_id)
       end
     end
